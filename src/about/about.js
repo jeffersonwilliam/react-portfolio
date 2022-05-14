@@ -24,6 +24,7 @@ function About() {
         <li className="tool-list">Python</li>
         <li className="tool-list">TypeScript</li>
         <li className="tool-list">React</li>
+        <li className="tool-list">Angular JS</li>
       </ul>
       {/* <p className="text-body"> I love to play video games and learn the guitar in my free time.
       </p> */}
