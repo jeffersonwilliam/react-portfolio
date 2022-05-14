@@ -57,16 +57,17 @@ justify-content: space-evenly;
 .content-section {
   display: flex;
   flex-direction: column;
+  width: 67%;
   margin-top: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-text {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: x-large;
 }
@@ -75,17 +76,11 @@ justify-content: space-evenly;
   display: flex;
   flex-direction: column;
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 .work-div {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 .job-title {
@@ -98,6 +93,12 @@ justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   margin-top: 3%;
+}
+
+.company-logos {
+  width: 10%;
+  height: 30%;
+  border-radius: 90%;
 }
 
 .sub-section {
@@ -113,21 +114,23 @@ justify-content: space-evenly;
   margin-top: 0%;
 }
 
-.company-logos {
-  width: 10%;
-  height: 30%;
-  border-radius: 90%;
-}
-
 .job-info {
   margin-top: 2%;
   margin-left: 5%;
 }
 
 @media only screen and (max-width: 470px) {
+  .image-holder img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    height: 25%;
+  }
+
   .company-logos {
-    width: 30%;
-    height: 30%;
+    width: 23%;
+    height: 25%;
     border-radius: 90%;
   }
 
@@ -135,6 +138,16 @@ justify-content: space-evenly;
     font-size:large;
     font-weight: bold;
     margin-bottom: 0%;
+  }
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -167,8 +180,6 @@ ul {
 }
 
 ul .tool-list {
-  margin-left: auto;
-  margin-right: auto;
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: x-large;
   width: 50%;
@@ -176,21 +187,14 @@ ul .tool-list {
 
 .tech-intro {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: x-large;
-  width: 50%;
 }
 
 .text-body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: x-large;
   text-align: center;
@@ -199,8 +203,6 @@ ul .tool-list {
 .contact-body {
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: x-large;
@@ -211,5 +213,3 @@ ul .tool-list {
   display: flex;
   justify-content: center;
 }
-
-

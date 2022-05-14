@@ -8,7 +8,7 @@ import myimage from '../assets/portfolioimg-modified.png';
 
 function About() {
   return (
-    <div className="content-section" id="about">
+    <div className="content-section">
       <p className="content-name">About</p>
       <div className="image-holder">
         <img src={myimage} alt="me" />
