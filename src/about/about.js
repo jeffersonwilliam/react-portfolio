@@ -4,7 +4,7 @@ import '../style.scss';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import IconButton from '@mui/material/IconButton';
-import myimage from '../assets/portfolioimg-modified.png';
+import myimage from '../assets/profile-img.png';
 
 function About() {
   return (
@@ -14,14 +14,17 @@ function About() {
         <img src={myimage} alt="me" />
       </div>
       <p className="about-text">
-        Hello! I&apos;m Jefferson William Akesseh, a junior at Dartmouth College studying computer science.
-        I have a deep passion for software development, particularly mobile app and front end development.
+        Hello! I&apos;m Jefferson William Akesseh, a senior at Dartmouth College
+        studying computer science. I am interested in backend development.
       </p>
-      <p className="tech-intro"> I have experience in the following technologies:</p>
+      <p className="tech-intro">
+        {' '}
+        I have experience in the following technologies:
+      </p>
       <ul>
         <li className="tool-list">Java</li>
-        <li className="tool-list">Javascript</li>
         <li className="tool-list">Python</li>
+        <li className="tool-list">Javascript</li>
         <li className="tool-list">TypeScript</li>
         <li className="tool-list">React</li>
         <li className="tool-list">Angular JS</li>
@@ -32,13 +35,20 @@ function About() {
       <div className="footer">
         <IconButton
           aria-label="Github.com"
-          onClick={() => window.open('https://github.com/jeffersonwilliam', '_blank')}
+          onClick={() =>
+            window.open('https://github.com/jeffersonwilliam', '_blank')
+          }
         >
           <GitHubIcon id="g" fontSize="large" />
         </IconButton>
         <IconButton
           aria-label="Linkedin.com"
-          onClick={() => window.open('https://www.linkedin.com/in/jefferson-william-akesseh/', '_blank')}
+          onClick={() =>
+            window.open(
+              'https://www.linkedin.com/in/jefferson-william-akesseh/',
+              '_blank'
+            )
+          }
         >
           <LinkedInIcon id="l" fontSize="large" />
         </IconButton>

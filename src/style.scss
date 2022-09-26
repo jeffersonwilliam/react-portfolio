@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
 
-body, html {
-    background-color: #FCF7F2 !important;
+body,
+html {
+  // background-color: #FCF7F2 !important;
+  background-color: white !important;
+  // background-image: url("./assets/nasa_bg.jpg");
 }
 
 * {
@@ -25,8 +28,7 @@ body, html {
 }
 
 .app-header-container div {
-justify-content: space-evenly;
-
+  justify-content: space-evenly;
 }
 
 .app-header-buttons a {
@@ -48,8 +50,8 @@ justify-content: space-evenly;
 .content-name {
   display: flex;
   flex-direction: row;
-  font-family: 'Righteous', cursive;
-  font-size:6vw;
+  font-family: "Righteous", cursive;
+  font-size: 6vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -68,7 +70,7 @@ justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   margin-top: 5%;
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
   font-size: x-large;
 }
 
@@ -84,7 +86,7 @@ justify-content: space-evenly;
 }
 
 .job-title {
-  font-size:x-large;
+  font-size: x-large;
   font-weight: bold;
   margin-bottom: 0%;
 }
@@ -135,7 +137,7 @@ justify-content: space-evenly;
   }
 
   .job-title {
-    font-size:large;
+    font-size: large;
     font-weight: bold;
     margin-bottom: 0%;
   }
@@ -157,17 +159,17 @@ justify-content: space-evenly;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-family: "Lato", sans-serif;
 }
 
 span {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 .about {
-    color: white;
+  color: white;
 }
 
 ul {
@@ -180,14 +182,14 @@ ul {
 }
 
 ul .tool-list {
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
   font-size: x-large;
   width: 50%;
 }
 
 .tech-intro {
   display: flex;
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
   font-size: x-large;
 }
 
@@ -195,7 +197,7 @@ ul .tool-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
   font-size: x-large;
   text-align: center;
 }
@@ -204,7 +206,7 @@ ul .tool-list {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
   font-size: x-large;
   text-align: center;
 }
@@ -212,4 +214,20 @@ ul .tool-list {
 .footer {
   display: flex;
   justify-content: center;
+}
+
+.vl {
+  border-left: 2px solid green;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.home-container {
+  // background: url("./assets/city.png") no-repeat center center fixed;
+  background: url("./assets/mountain.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  // display: flex;
+  // flex-direction: row;
 }

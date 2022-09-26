@@ -7,6 +7,7 @@ import {
 import Navigationbar from './navbar/nav';
 import About from './about/about';
 import Work from './work/work';
+// import Home from './home/home';
 import Education from './education/education';
 import './style.scss';
 
@@ -17,7 +18,7 @@ function App() {
         <Navigationbar />
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/about" element={<About />} />
+          <Route path="about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/education" element={<Education />} />
           <Route path="*" element={<div>Page not found </div>} />
