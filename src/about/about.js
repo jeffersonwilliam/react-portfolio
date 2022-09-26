@@ -14,7 +14,7 @@ function About() {
         <img src={myimage} alt="me" />
       </div>
       <p className="about-text">
-        Hello! I&apos;m Jefferson William Akesseh, a junior at Dartmouth College studying computer science.
+        Hello! I&apos;m Jefferson William Akesseh, a senior at Dartmouth College studying computer science.
         I have a deep passion for software development, particularly mobile app and front end development.
       </p>
       <p className="tech-intro"> I have experience in the following technologies:</p>
