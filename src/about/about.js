@@ -24,6 +24,7 @@ function About() {
       <ul>
         <li className="tool-list">Java</li>
         <li className="tool-list">Python</li>
+        <li className="tool-list">Node.js</li>
         <li className="tool-list">Javascript</li>
         <li className="tool-list">TypeScript</li>
         <li className="tool-list">React</li>
